@@ -1,0 +1,27 @@
+
+#intro{
+    background-color: blue;
+    .intro-wrapper{
+        display: flex;
+        justify-content: center;
+        .intro-content{
+            .intro-image{
+                display: flex;
+                justify-content: center;
+                padding: 75px 0 30px;
+                img{
+                    width: 20px;
+                }
+            }
+            .intro-title{
+                display: flex;
+                justify-content: center;
+                color: #fff;
+                font-size: 40px;
+            }
+            .intro-icon{
+                position: relative;
+            }
+        }
+    }
+}
